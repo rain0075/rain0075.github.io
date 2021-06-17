@@ -24,6 +24,11 @@ nav ul a{
     background: orange url(../images/bread.jpg) no-repeat center center;
     background-size: cover; 
     color: whitesmoke;
+
+    font-size: 1.25rem;
+    padding: 1em;
+
+    width: 50%;
 }
 .orange-link{
     background-color: darkslategrey;
