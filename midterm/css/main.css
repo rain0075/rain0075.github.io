@@ -190,7 +190,7 @@ article img {
     margin-bottom: 20px;
     float: left;
     font-weight: bold;
-    border-left: lightgrey solid 2px;
+    border-left: rgb(177, 215, 228) solid 2px;
     text-align: center;
 }
 
@@ -217,7 +217,7 @@ header img {
 p {
     font-size: 9pt;
     margin: 10px;
-    font-weight: 165%;
+    font-weight: 165;
     line-height: 9pt;
 }
 
@@ -234,7 +234,7 @@ form {
     height: 310px;
     Padding: 10px;
     width: 600px;
-    border: grey solid 1px;
+    border: rgb(131, 129, 129) solid 1px;
     margin: 0 auto;
     font-size: 9pt;
 }
