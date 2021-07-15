@@ -239,6 +239,28 @@ p {
     text-align: center;
 }
 
+/* Navigation */
+.nav-list li{
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+/* LoVe HAte */
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited{
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current{
+    background-color: #00add8;
+    color: inherit;
+
+}
+
 /* ----------Moblie App Section------------- */
 
 .btn {
@@ -255,6 +277,21 @@ p {
     background-color: #00add8;
 }
 
+
+/* ---------Actions Section------ */
+
+.actions-list{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.actions-list li{
+    max-width: 50%;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 /* --------Footer---------- */
 
 .site-footer {
@@ -266,6 +303,8 @@ p {
 .copy {
     text-align: right;
 }
+
+
 
 /* --------------------------------------------
         D E S K T O P  S T Y L E S
@@ -292,6 +331,22 @@ p {
     .banner h1 {
         color: white;
     }
+
+    /* Navigation */
+
+    .nav-list {
+        display: flex;
+    }
+
+    .nav-list li {
+        flex: 1;
+        border: none;
+        border-right: 1px solid grey;   
+    }
+
+    .nav-list li:last-shild {
+        border: none;
+    }
  
     /* App Section */
     .app img{
@@ -304,4 +359,15 @@ p {
     }
     /* add clearfix to the parent */
     
+}
+
+
+/* --------------------------------
+        Media Query 800px and above
+------------------------------------*/
+
+@media screen and (min-width: 800px) {
+    .actions-list li{
+        width: 20%;
+    }
 }
