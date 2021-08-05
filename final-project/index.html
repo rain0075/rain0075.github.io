@@ -24,9 +24,12 @@
                 <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                    <input type="search" id="search" name="Search" placeholder="Search">
-                    <button type="submit"> <i class="im im-magnifier"></i>
-                    </button>
+                    <form>
+                        <label for="serch">Search</label>
+                        <input type="search" id="search" name="Search" placeholder="Search">
+                        <button type="submit"> <i class="im im-magnifier"></i>
+                        </button>
+                    </form>
                 </li>
             </ul>
             <!-- Closing Nav -->
@@ -39,7 +42,8 @@
                         doloribus accusamus totam unde ut alias qui voluptate excepturi quos culpa recusandae
                         repellendus iusto, aspernatur repudiandae fugiat necessitatibus facilis?
                     </p>
-                    <button>Connect with us <i class="im im-care-right"></i></button>
+
+                    <a href="#">Connect with us <i class="im im-care-right"></i></a>
                 </div>
             </div>
         </nav>
@@ -73,7 +77,7 @@
         <section class="ourservices" id="services">
             <div class="cards">
                 <h3 class="head"> Our Services</h3>
-                <div class="Digital">
+                <div class="digital">
                     <img src="images/digital.jpg" alt="digital transformation">
                     <div class="info">
                         <h3>Digital Transformation</h3>
@@ -95,7 +99,7 @@
                     </div>
                 </div>
                 <!-- closing card -->
-                <div class="Video">
+                <div class="video">
                     <img src="images/video.jpg" alt="Video Production">
                     <div class="info">
                         <h3>Video Production</h3>
@@ -106,7 +110,7 @@
                     </div>
                 </div>
                 <!-- closing card -->
-                <div class="Web">
+                <div class="web">
                     <img src="images/web.jpg" alt="Web Development">
                     <div class="info">
                         <h3>Web Development</h3>
@@ -117,7 +121,7 @@
                     </div>
                 </div>
                 <!-- closing card -->
-                <div class="Print">
+                <div class="print">
                     <img src="images/print.jpg" alt="Print">
                     <div class="info">
                         <h3>Print</h3>
@@ -180,6 +184,7 @@
                 <h3> Contact Us</h3>
                 <div class="message">
                     <h4>Send us a message</h4>
+                    <form>
                     <div>
                         <label for="fullname">Full Name</label>
                         <input type="text" id="fullname" name="fullname">
@@ -193,6 +198,7 @@
                         <textarea id="message" name="message"></textarea>
                     </div>
                     <button type="submit">Send</button>
+                    </form>
                 </div>
 
                 <div class="hours">
@@ -227,12 +233,15 @@
                 </div>
             </div>
         </section>
+        <!-- Closing Contact -->
+        <!-- Footer -->
         <footer class="site-footer">
             <div class="footerinfo">
                 <p>&copy; Copyright Three Star Media,2020</p>
                 <p>All images taken from <a href="#">Unsplash</a></p>
             </div>
         </footer>
+        <!-- Closing Footer -->
     </main>
 </body>
 
