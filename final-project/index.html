@@ -6,82 +6,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <title>Three Star Media</title>
-    <!-- Icon Fonts Link -->
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--   Icon Font link-->
     <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css
     ">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <header id="home">
-        <!-- Nav Section -->
-        <nav class="main-nav">
-            <ul class="nav-list">
-                <li><img src="images/logo.png" alt="company logo"></li>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about-us">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li>
-                    <form>
-                        <label for="serch">Search</label>
-                        <input type="search" id="search" name="Search" placeholder="Search">
-                        <button type="submit"> <i class="im im-magnifier"></i>
-                        </button>
-                    </form>
-                </li>
-            </ul>
-            <!-- Closing Nav -->
-            <!-- Banner Section -->
-            <div class="banner">
-                <div class="bannerinfo">
-                    <h1>Welcome to Three Star Media</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis praesentium molestiae
-                        doloribus accusamus totam unde ut alias qui voluptate excepturi quos culpa recusandae
-                        repellendus iusto, aspernatur repudiandae fugiat necessitatibus facilis?
-                    </p>
-
-                    <a href="#">Connect with us <i class="im im-care-right"></i></a>
+    <div class="container">
+        <header id="home">
+            <!-- Nav Section -->
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><img src="images/logo.png" alt="company logo"></li>
+                    <li><a href="#home" class="current">Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <form class="search">
+                            <label for="search">Search</label>
+                            <input type="search" id="search" name="Search" placeholder="Search">
+                            <button type="submit"> <i class="im im-magnifier"></i>
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+                <!-- Closing Nav -->
+                <!-- Banner Section -->
+                <div class="banner">
+                    <div class="bannerinfo">
+                        <h1>Welcome to Three Star Media</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis praesentium molestiae
+                            doloribus accusamus totam unde ut alias qui voluptate excepturi quos culpa recusandae
+                            repellendus iusto, aspernatur repudiandae fugiat necessitatibus facilis?
+                        </p>
+                        <a href="#" class="connect-btn">Connect with us <i class="im im-care-right"></i></a>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <!-- Closing Banner -->
-    <main>
-        <!-- About Section -->
-        <section class="aboutus" id="about-us">
-            <div class="aboutuscontent">
-                <img src="images/about-us.jpg" alt="A photo of the office breakroom">
-                <div class="aboutuswords">
-                    <h2>About Us</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, libero quis facilisis
-                        sodales, libero eros sollicitudin eros, eget aliquam sapien dolor non orci. Curabitur aliquet
-                        metus in felis euismod consequat. Mauris volutpat nulla et mollis efficitur. Praesent maximus
-                        risus est, in porta turpis luctus sed. Quisque magna dolor, rutrum at hendrerit vitae, porttitor
-                        ac mauris.
+            </nav>
+        </header>
+        <!-- Closing Banner -->
+        <main>
+            <!-- About Section -->
+            <section class="aboutus" id="about-us">
+                <div class="aboutuscontent">
+                    <img src="images/about-us.jpg" alt="A photo of the office breakroom">
+                    <div class="aboutuswords">
+                        <h2>About Us</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, libero quis
+                            facilisis
+                            sodales, libero eros sollicitudin eros, eget aliquam sapien dolor non orci. Curabitur
+                            aliquet
+                            metus in felis euismod consequat. Mauris volutpat nulla et mollis efficitur. Praesent
+                            maximus
+                            risus est, in porta turpis luctus sed. Quisque magna dolor, rutrum at hendrerit vitae,
+                            porttitor
+                            ac mauris.
 
-                    </p>
-                    <p>
-                        uisque suscipit odio velit, tempor scelerisque arcu pellentesque vel. Suspendisse tincidunt,
-                        quam non sodales commodo, nisl nunc pretium metus, vel elementum felis enim quis est.
-                        Pellentesque euismod orci sed diam iaculis, in placerat risus fermentum.
-                    </p>
+                        </p>
+                        <p>
+                            uisque suscipit odio velit, tempor scelerisque arcu pellentesque vel. Suspendisse tincidunt,
+                            quam non sodales commodo, nisl nunc pretium metus, vel elementum felis enim quis est.
+                            Pellentesque euismod orci sed diam iaculis, in placerat risus fermentum.
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!-- Closing About -->
-        <!-- Services Section -->
-        <section class="ourservices" id="services">
+            </section>
+            <!-- Closing About -->
+            <!-- Services Section -->
+
             <div class="cards">
-                <h3 class="head"> Our Services</h3>
-                <div class="digital">
+                <h2> Our Services</h2>
+                <div class="card">
                     <img src="images/digital.jpg" alt="digital transformation">
                     <div class="info">
                         <h3>Digital Transformation</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem autem sint
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem autem
+                            sint
                             veniam animi omnis asperiores. Quos inventore, consequatur perspiciatis, non corrupti
                             commodi alias beatae autem dolore ut itaque veritatis.</p>
                         <a href="#" class="btn">Digital Plans <i class="im im-care-right"></i></a>
@@ -92,40 +101,44 @@
                     <img src="images/marketing.jpg" alt="Marketing">
                     <div class="marketing">
                         <h3>Marketing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem autem sint
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem autem
+                            sint
                             veniam animi omnis asperiores. Quos inventore, consequatur perspiciatis, non corrupti
                             commodi alias beatae autem dolore ut itaque veritatis.</p>
                         <a href="#" class="btn">Marketing Plans <i class="im im-care-right"></i></a>
                     </div>
                 </div>
                 <!-- closing card -->
-                <div class="video">
+                <div class="card">
                     <img src="images/video.jpg" alt="Video Production">
                     <div class="info">
                         <h3>Video Production</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem autem sint
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem autem
+                            sint
                             veniam animi omnis asperiores. Quos inventore, consequatur perspiciatis, non corrupti
                             commodi alias beatae autem dolore ut itaque veritatis.</p>
                         <a href="#" class="btn">Video Plans<i class="im im-care-right"></i></a>
                     </div>
                 </div>
                 <!-- closing card -->
-                <div class="web">
+                <div class="card">
                     <img src="images/web.jpg" alt="Web Development">
                     <div class="info">
                         <h3>Web Development</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem autem sint
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem autem
+                            sint
                             veniam animi omnis asperiores. Quos inventore, consequatur perspiciatis, non corrupti
                             commodi alias beatae autem dolore ut itaque veritatis.</p>
                         <a href="#" class="btn">Web Plans<i class="im im-care-right"></i></a>
                     </div>
                 </div>
                 <!-- closing card -->
-                <div class="print">
+                <div class="card">
                     <img src="images/print.jpg" alt="Print">
                     <div class="info">
                         <h3>Print</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem autem sint
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem autem
+                            sint
                             veniam animi omnis asperiores. Quos inventore, consequatur perspiciatis, non corrupti
                             commodi alias beatae autem dolore ut itaque veritatis.</p>
                         <a href="#" class="btn">Print Plans<i class="im im-care-right"></i></a>
@@ -133,79 +146,82 @@
                 </div>
                 <!-- closing card -->
             </div>
-        </section>
-        <!-- Closing Services -->
-        <!--Our Vision Section  -->
-        <section class="vision">
-            <div class="visiontext">
-                <h3>Our Vision</h3>
-                <P>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, libero quis facilisis
-                    sodales, libero eros sollicitudin eros, eget aliquam sapien dolor non orci. Curabitur aliquet metus
-                    in felis euismod consequat. Mauris volutpat nulla et mollis efficitur. Praesent maximus risus est,
-                    in porta turpis luctus sed. Quisque magna dolor, rutrum at hendrerit vitae, porttitor ac mauris.
-                </P>
-                <a href="#">Learn More<i class="im im-care-right"></i></a>
-            </div>
-        </section>
-        <!-- Closing Vision -->
-        <!-- Team Section -->
-        <section>
-            <div class="team" id="team">
-                <h3>Our Team</h3>
-                <img src="images/john.jpg" alt="Photo of John Doe">
-                <div class="john">
-                    <h4>
-                        John Doe
-                    </h4>
-                    <h5> CEO and Co-owner</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, libero quis facilisis
-                        sodales, libero eros sollicitudin eros, eget aliquam sapien dolor non orci. Curabitur aliquet
-                        metus in felis euismod consequat.
-                    </p>
-                </div>
-                <img src="images/bob.jpg" alt="Photo of Bob Rite">
-                <div class="bob">
-                    <h4>Bob Rite</h4>
-                    <h5>CFO and Co-owner</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, libero quis facilisis
-                        sodales, libero eros sollicitudin eros, eget aliquam sapien dolor non orci. Curabitur aliquet
-                        metus in felis euismod consequat. Mauris volutpat nulla et mollis efficitur.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <!-- Closing Team -->
-        <!-- Contact Section -->
-        <section>
-            <div class="contact" id="contact">
-                <h3> Contact Us</h3>
-                <div class="message">
-                    <h4>Send us a message</h4>
-                    <form>
-                    <div>
-                        <label for="fullname">Full Name</label>
-                        <input type="text" id="fullname" name="fullname">
-                    </div>
-                    <div>
-                        <label for="youremail">Email</label>
-                        <input type="email" id="youremail" name="youremail" required>
-                    </div>
-                    <div>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message"></textarea>
-                    </div>
-                    <button type="submit">Send</button>
-                    </form>
-                </div>
 
-                <div class="hours">
-                    <h3>
-                        Hours of Operation
-                    </h3>
+            <!-- Closing Services -->
+            <!--Our Vision Section  -->
+            <section class="vision">
+                <div class="visiontext">
+                    <h3>Our Vision</h3>
+                    <P>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, libero quis facilisis
+                        sodales, libero eros sollicitudin eros, eget aliquam sapien dolor non orci. Curabitur aliquet
+                        metus
+                        in felis euismod consequat. Mauris volutpat nulla et mollis efficitur. Praesent maximus risus
+                        est,
+                        in porta turpis luctus sed. Quisque magna dolor, rutrum at hendrerit vitae, porttitor ac mauris.
+                    </P>
+                    <a href="#">Learn More<i class="im im-care-right"></i></a>
+                </div>
+            </section>
+            <!-- Closing Vision -->
+            <!-- Team Section -->
+            <section>
+                <div class="team">
+                    <h2>Our Team</h2>
+                    <img src="images/john.jpg" alt="Photo of John Doe">
+                    <div class="teamtxt">
+                        <h3>
+                            John Doe
+                        </h3>
+                        <h4> CEO and Co-owner</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, libero quis
+                            facilisis
+                            sodales, libero eros sollicitudin eros, eget aliquam sapien dolor non orci. Curabitur
+                            aliquet
+                            metus in felis euismod consequat.
+                        </p>
+                    </div>
+                    <img src="images/bob.jpg" alt="Photo of Bob Rite" class="bobphoto">
+                    <div class="teamtxt">
+                        <h3>Bob Rite</h3>
+                        <h4>CFO and Co-owner</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, libero quis
+                            facilisis
+                            sodales, libero eros sollicitudin eros, eget aliquam sapien dolor non orci.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Closing Team -->
+            <!-- Contact Section -->
+            <section>
+                <div class="contact" id="contact">
+                    <h2> Contact Us</h2>
+                    <div class="contactfield">
+                        <h3>Send us a message</h3>
+                        <form>
+                            <div class="fullname">
+                                <label for="fullname">Full Name</label>
+                                <input type="text" id="fullname" name="fullname" class="fullname">
+                            </div>
+                            <div class="youremail">
+                                <label for="youremail">Email</label>
+                                <input type="email" id="youremail" name="youremail" class="youremail">
+                            </div>
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" class="message"></textarea>
+                            </div>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+
+
+
                     <table>
+                        <caption> Hours of operation</caption>
                         <thead>
                             <tr>
                                 <th>Days</th>
@@ -223,26 +239,27 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
 
-                <div class="location">
-                    <h3>Location</h3>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.960349188735!2d-75.75832332267225!3d45.34921246639897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07221f5e4d63%3A0x27a0d6c35d18d7ee!2sAlgonquin%20College%20Building%20P!5e0!3m2!1sen!2sca!4v1627930702742!5m2!1sen!2sca"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                    <div class="location">
+                        <h3>Location</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.960349188735!2d-75.75832332267225!3d45.34921246639897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07221f5e4d63%3A0x27a0d6c35d18d7ee!2sAlgonquin%20College%20Building%20P!5e0!3m2!1sen!2sca!4v1627930702742!5m2!1sen!2sca"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!-- Closing Contact -->
-        <!-- Footer -->
-        <footer class="site-footer">
-            <div class="footerinfo">
-                <p>&copy; Copyright Three Star Media,2020</p>
-                <p>All images taken from <a href="#">Unsplash</a></p>
-            </div>
-        </footer>
-        <!-- Closing Footer -->
-    </main>
+            </section>
+            <!-- Closing Contact -->
+            <!-- Footer -->
+            <footer class="site-footer">
+                <div class="footer">
+                    <p>&copy; Copyright Three Star Media,2020</p>
+                    <p>All images taken from <a href="#">Unsplash</a></p>
+                </div>
+            </footer>
+            <!-- Closing Footer -->
+        </main>
+    </div>
 </body>
 
 </html>

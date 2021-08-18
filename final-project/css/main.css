@@ -1,0 +1,598 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ----------------------------------------------------------------------
+                C U S T O M  S T Y L E S
+------------------------------------------------------------------------ */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3.25em;
+    line-height: 5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.8rem;
+    margin: 1em 0;
+    line-height: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* -------------------NAV SECTION-------------------- */
+
+.main-nav {
+    background-color: #222;
+    padding: 1em;
+}
+
+.main-nav a {
+    text-align: center;
+}
+
+.main-nav img {
+    display: block;
+    width: 15%;
+}
+
+.main-nav a,
+.main-nav a:link,
+.main-nav a:visited {
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+    color: #c78c06;
+    font-size: 1em;
+}
+
+.main-nav a:hover,
+.main-nav a:focus,
+.main-nav a.current {
+    background-color: #c78c06;
+    color: inherit;
+}
+
+.search {
+    display: flex;
+	padding-bottom: 5px;
+}
+.search label{
+	display: none;
+}
+.main-nav .search input {
+    flex-grow: 1;
+}
+
+.im-magnifier {
+    font-size: 16px;
+}
+
+/* -------------------BANNER SECTION----------------------- */
+
+.banner {
+    background: grey url(/final-project/images/main-banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 350px;
+    padding-top: 3.25em;
+}
+
+.bannerinfo {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    padding-top: 2em;
+}
+
+h1,
+.banner p {
+    color: white;
+}
+
+.bannerinfo a {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1.5em;
+    background: #c78c06;
+    text-decoration: none;
+    color: inherit;
+    
+    
+}
+
+a .im-care-right {
+    vertical-align: middle;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+/* -------------------ABOUT SECTION------------------------------ */
+
+.aboutus {
+    background: #ffe6ac;
+}
+
+.aboutuscontent {
+    padding: 1em;
+}
+
+.aboutuscontent img {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+/* -----------------------SERVICES SECTION----------------------- */
+
+.cards {
+    margin: 0 auto;
+    margin: 1em;
+}
+
+.card {
+    background: #ffe6ac;
+    margin: 1em 0;
+}
+
+
+.cards h2 {
+    padding-top: 1em;
+}
+
+.cards h3 {
+    padding-top: 1em;
+}
+
+.info {
+    padding: 0 1em 0 1em;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .btn {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1.5em;
+    background: #222;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 1em;
+}
+
+/* ----------------------OUR VISION SECTION------------------------- */
+
+.vision {
+    background: cornflowerblue url(/final-project/images/vision.jpg) no-repeat center;
+    background-size: cover;
+    padding: 1em;
+}
+
+.visiontext {
+    color: white;
+}
+
+.vision h3 {
+    padding-top: 1em;
+    font-weight: 700;
+}
+
+.vision a {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.5em;
+    border: 1px solid grey;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+/* -----------------------OUR TEAM SECTION-------------------------- */
+
+.team {
+    margin: 1em;
+}
+
+.team img {
+    width: 100%;
+    display: block;
+}
+
+.teamtxt {
+    background: #ffe6ac;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.teamtxt h3 {
+    margin: 0em 0 0.5em 0;
+}
+
+.teamtxt h4 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid #c78c06;
+}
+
+/* ----------------------CONTACT----------------------------- */
+
+.contact {
+    position: relative;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.contactfield {
+    padding: 1em 0;
+}
+
+.contact h3 {
+    padding-top: 1rem;
+}
+
+.fullname {
+    width: 98%;
+    margin-bottom: 1em;
+    margin-top: 0.25em;
+}
+
+.youremail {
+    width: 98%;
+    margin-bottom: 1em;
+    margin-top: 0.25em;
+}
+
+.message {
+    width: 98%;
+    height: 5rem;
+    margin-bottom: 1em;
+    margin-top: 0.25em;
+}
+
+.message button {
+    border: 1px solid #c78c06;
+    background-color: #222;
+    font-size: 1em;
+    color: #c78c06;
+    padding: 0.25em 0.25em;
+}
+
+caption{
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: 0.5em;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th,
+td {
+    border: 1px solid grey;
+    padding: 1em;
+    font-size: 0.8em;
+}
+
+thead tr {
+    background: #ffe6ac;
+}
+
+/* Styling the Location */
+.location h3 {
+    padding-bottom: 0.5em;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* -------------------------FOOTER-------------------------- */
+/* Styling the Footer */
+footer {
+    background: #222;
+    padding: 0.5em 0 0.5em 0.75em;
+    color: #c78c06;
+}
+/* ------------------------M E D I A  Q U E R I E S-------------------- */
+
+@media screen and (min-width:760px) {
+    html {
+        font-size: 16px;
+    }
+
+    .main-nav img {
+        width: 50%;
+        display: inline-block;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+        margin: 0 5em;
+    }
+
+    .nav-list li {
+        flex: 1;
+    }
+
+    /* BANNER STYLES */
+    .bannerinfo {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+
+    /* ABOUT US STYLES */
+    .aboutuscontent {
+        display: flex;
+    }
+
+    .aboutuscontent img {
+        width: 50%;
+        padding-left: 4em;
+        margin: 0 auto;
+    }
+
+    .aboutuswords {
+        padding: 1em 4em 0em 1em;
+    }
+
+    /* SERVICES STYLES */
+    .card {
+        margin-bottom: -0.25em;
+    }
+
+    .cards {
+        padding: 0 4em 0 4em;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 10px;
+    }
+
+    .cards h2 {
+        grid-column: 1 / span 6;
+    }
+
+
+    .cards .card:nth-child(2) {
+        grid-column: span 3;
+    }
+
+    .cards .card:nth-child(3) {
+        grid-column: span 3;
+    }
+
+    .cards .card:nth-child(4) {
+        grid-row-start: 3;
+        grid-column: span 2;
+    }
+
+    .cards .card:nth-child(5) {
+        grid-row-start: 3;
+        grid-column: span 2;
+    }
+
+    .cards .card:nth-child(6) {
+        grid-row-start: 3;
+        grid-column: span 2;
+    }
+
+    /* CARD STYLES */
+    .card .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* VISION STYLES */
+    .vision {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 0 5em 0 5.5em;
+    }
+
+    /* TEAM STYLES */
+    .team {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 4.5em;
+    }
+
+    .team h2 {
+        grid-column: 1 / span 2;
+    }
+
+    .team .bobphoto {
+        grid-row: 3;
+        grid-column: 2;
+        margin-bottom: -1em;
+    }
+    .teamtxt{
+        margin-bottom: -1em;
+    }
+
+    /* CONTACT US STYLES */
+        .contact{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 50px 1fr 150px;
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+        }
+        .contact .contactfield{
+            grid-column: 1;
+            grid-row: 2;
+        }
+        .contact .location{
+            grid-column: 2;
+            grid-row: 2;
+        }
+        .contact table{
+            grid-column: 1 / span 2;
+            grid-row: 3;
+            padding-bottom: 5px;
+        }
+    }
